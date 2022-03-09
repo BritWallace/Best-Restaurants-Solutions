@@ -16,7 +16,7 @@
 
 Database Structure
 
-![Database Structure Image](/BestRestaurants/wwwroot/images/RestaurantDatabaseImage.jpg)
+![Database Structure Image](/BestRestaurants/wwwroot/images/RestaurantDatabaseImage.jpg) {align="left" height="48" width="48"}
 
 ## Setup/Installation Requirements
 
@@ -50,3 +50,4 @@ britwallace888@gmail.com
 ## License
 
 Copyright (c) February 2022 Brit Wallace, Jonathan Delcid, Amy Young, and Karl Starkweather.
+R
