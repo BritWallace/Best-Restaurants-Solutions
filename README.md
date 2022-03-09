@@ -16,7 +16,7 @@
 
 Database Structure
 
-![Database Structure Image](/BestRestaurants/wwwroot/images/RestaurantDatabaseImage.jpg) {align="left" height="48" width="48"}
+![Database Structure Image](/BestRestaurants/wwwroot/images/DatabaseImage.jpg){: align="left" height="48px" width="48px"}
 
 ## Setup/Installation Requirements
 
