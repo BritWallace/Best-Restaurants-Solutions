@@ -16,7 +16,7 @@
 
 Database Structure
 
-![Database Structure Image](/BestRestaurants/wwwroot/images/RestaurantDatabaseImage.png)
+![Database Structure Image](/BestRestaurants/wwwroot/images/RestaurantDatabaseImage.jpg)
 
 ## Setup/Installation Requirements
 
