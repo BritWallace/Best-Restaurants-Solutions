@@ -14,6 +14,8 @@
 
 ## Description
 
+This application allows the user to enter restaurants, categorized by Cuisine, and rate them for quality and cost. It also saves those entries in persistent database files.
+
 Database Structure
 
 ![Database Structure Image](/BestRestaurants/wwwroot/images/DatabaseImage.jpg){: align="left" height="48px" width="48px"}
@@ -28,7 +30,7 @@ Database Structure
 - Run the following command: git clone https://github.com/BritWallace/Best-Restaurants-Solutions.git
 - Follow these steps to import the table needed for the project:
 - Determine if the MySql server is running locally by typing the following into the command line mysql -uroot -p[The password you set up]
-- Open MySql Workbench. Once open select the Administration tab. Next select Data Import/Restore. This opens up the Data Import window with the Import from Disk tab open. Select the radio button for Import from Self-Contained File. Click the button with the three dots (if on windows) or two dots (if on mac) at the end of the path field. This will open a window to search for the sql dump file on your local disk. Navigate to the root directory of the cloned project and select brit_wallace.sql and click the open button. Next, press the New... button. This will open a window where you can choose the name of the imported schema. Choose a name appropriate to the project, e.g. Best Restaurant and click Okay We'll need this name later when setting up the project to work with this schema. If on a mac, click the Start Import button. If on a windows machine, switch to the Import Progress tab on the Data Import page. Click the Import button. Finally, re-click on the Schemas tab. Right-click in the Schemas window, and select Refresh All. The imported schema should now be listed.
+- Open MySql Workbench. Once open select the Administration tab. Next select Data Import/Restore. This opens up the Data Import window with the Import from Disk tab open. Select the radio button for Import from Self-Contained File. Click the button with the three dots (if on windows) or two dots (if on mac) at the end of the path field. This will open a window to search for the sql dump file on your local disk. Navigate to the root directory of the cloned project and select best_restaurant.sql and click the open button. Next, press the New... button. This will open a window where you can choose the name of the imported schema. Choose a name appropriate to the project, e.g. Best Restaurant and click Okay We'll need this name later when setting up the project to work with this schema. If on a mac, click the Start Import button. If on a windows machine, switch to the Import Progress tab on the Data Import page. Click the Import button. Finally, re-click on the Schemas tab. Right-click in the Schemas window, and select Refresh All. The imported schema should now be listed.
   \*Navigate back to the BestRestaurant/ directory and create a file named: appsettings.json. In this file, add the fowling configuration to set up the project to work with the schema you imported:
   {
   "ConnectionStrings": {
